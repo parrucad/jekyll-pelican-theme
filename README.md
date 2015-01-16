@@ -57,7 +57,7 @@ tags: []                            # Will be keywords for SEO
 
 Having a problem? Just [file a GitHub Issue](https://github.com/hmfaysal/hmfaysal-omega-theme/issues/new)
 
-## Thanks
+## Credit
 
 Thanks for [Pelican](http://blog.getpelican.com) and [Smashing Magazine](http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/).
 
