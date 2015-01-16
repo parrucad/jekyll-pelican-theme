@@ -18,8 +18,8 @@ layout: default
                         <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>
                         </abbr>
 
-                        <address class="vcard author">
-                            By <a class="url fn pjax" href="{{ "/about/" | prepend: site.baseurl | prepend: site.url }}" title="About {{ site.owner.name }}">{{ site.owner.name }}</a>
+                        <address class="vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            By <span itemprop="name"><a class="url fn pjax" href="{{ "/about/" | prepend: site.baseurl | prepend: site.url }}" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span>
                         </address>
 
                         <p>
@@ -63,11 +63,11 @@ layout: default
                 <div class="entry-content">
                     <footer class="post-info">
                         <abbr class="published" title="{{ post.date | date: "%b %-d, %Y" }}">
-                        {{ post.date | date: "%b %-d, %Y" }}
+                        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>
                         </abbr>
 
-                        <address class="vcard author">
-                            By <a class="url fn pjax" href="{{ "/about/" | prepend: site.baseurl | prepend: site.url }}" title="About {{ site.owner.name }}">{{ site.owner.name }}</a>
+                        <address class="vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            By <span itemprop="name"><a class="url fn pjax" href="{{ "/about/" | prepend: site.baseurl | prepend: site.url }}" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span>
                         </address>
 
                         <p>

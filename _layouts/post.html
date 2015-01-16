@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article>
+<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <header>
       <h1 class="entry-title">
           <a class="pjax" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" rel="bookmark">{{ page.title }}</a></h1>
@@ -13,8 +13,8 @@ layout: default
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d %b %Y" }}</time>
             </abbr>
 
-            <address class="vcard author">
-                By <a class="url fn pjax" href="{{ "/about/" | prepend: site.baseurl | prepend: site.url }}" title="About {{ site.owner.name }}">{{ site.owner.name }}</a>
+            <address class="vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                By <span itemprop="name"><a class="url fn pjax" href="{{ "/about/" | prepend: site.baseurl | prepend: site.url }}" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span>
             </address>
             <p>In 
             {% for tag in page.categories %}
