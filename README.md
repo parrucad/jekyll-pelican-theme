@@ -1,4 +1,4 @@
-# jekyll-plican-theme
+# jekyll-pelican-theme
 
 Project name: JEKYLL PELICAN THEME
 
@@ -6,7 +6,7 @@ Project type: A minimal and beautiful theme for Jekyll
 
 JEKYLL PELICAN THEME is a theme import from [Pelican](http://blog.getpelican.com) for who like red and black.
 
-[中文版](https://github.com/ibrother/jekyll-plican-theme/wiki)
+[中文版](https://github.com/ibrother/jekyll-pelican-theme/wiki)
 
 The theme features:
 
@@ -30,7 +30,7 @@ The theme features:
 
 ## Quick Setup
 
-1. Fork the [JEKYLL PELICAN THEME](https://github.com/ibrother/jekyll-plican-theme/fork)
+1. Fork the [JEKYLL PELICAN THEME](https://github.com/ibrother/jekyll-pelican-theme/fork)
 
 2. Clone the repo you just forked.
 
